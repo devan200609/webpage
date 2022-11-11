@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1</title>
+    <link href="static/css/style_1.css" rel="stylesheet">
+</head>
+    <body>
+        <!--nav bar on all of the page and show if they are active in css-->
+        <nav class="navbar">
+            <li><a class="active" href="{{ url_for('page_1') }}">Console Page</a></li>
+            <li><a href="{{ url_for('page_2') }}">Video Game Page</a></li>
+            <li><a href="{{ url_for('page_3') }}">Headsets and Controllers Page</a></li>
+            <li><a href="{{ url_for('page_4') }}">PC Page</a></li>
+        </nav>
+        <h1>Welcome to the Console Page</h1>
+        <!--All of the images and words are in rows and columns-->
+        <div class="row">
+        <div class="column1">
+            <div class="oval"><span>50% off</span></div>
+            <img src="static/images/PS5.jpg" width="350" height="400">
+            <p>PlayStation 5 $249.99</p>
+            <p>Shipping is +$299.99</p>
+            <p>The PlayStation 5 Goated console</p>
+            </div>
+        <div class="column1">
+            <div class="oval"><span>70% off</span></div>
+            <img src="static/images/ps5 two.png" width="350" height="400">
+            <p>Two PlayStations 5 for $399.99</p>
+            <p>Shipping is +$299.99</p>
+            <p>The PlayStation 5 Goated still, but why not have 2 instead of 1</p>
+            </div>
+        <div class="column1">
+            <div class="oval"><span>50% off</span></div>
+            <img src="static/images/xbox series x.png" width="350" height="400">
+            <p>Xbox Series X for only $249.99</p>
+            <p>Shipping is +$249.99</p>
+            <p>The Xbox Series X Goated better then PlayStation</p>
+            </div>
+        <div class="column1">
+            <div class="oval"><span>30% off</span></div>
+            <img src="static/images/xbox series s.png" width="350" height="400">
+            <p>Xbox Series X for only $199.99</p>
+            <p>Shipping is +$199.99</p>
+            <p>The Xbox Series S Goated just like the Xbox Series X</p>
+            </div>
+        <div class="column1">
+            <div class="oval"><span>50% off</span></div>
+            <img src="static/images/two xboxs1.png" width="350" height="400"> 
+            <p>Xbox Series X for only $199.99</p>
+            <p>Shipping is +$199.99</p>
+            <p>Two Xbox's for the price of one</p>
+            </div>
+        <p>MUST READ--->We are a very trustworthy website. And no returns or getting any of your money back.</p>
+    </body>
+</html>
